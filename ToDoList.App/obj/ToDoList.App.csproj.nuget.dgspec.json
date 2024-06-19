@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\ToDoList.App.csproj": {}
+    "C:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\ToDoList.App.csproj": {}
   },
   "projects": {
-    "c:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\ToDoList.App.csproj": {
+    "C:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\ToDoList.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\ToDoList.App.csproj",
+        "projectUniqueName": "C:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\ToDoList.App.csproj",
         "projectName": "ToDoList.App",
-        "projectPath": "c:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\ToDoList.App.csproj",
+        "projectPath": "C:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\ToDoList.App.csproj",
         "packagesPath": "C:\\Users\\victor.casares.ext\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\obj\\",
+        "outputPath": "C:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\victor.casares.ext\\AppData\\Roaming\\NuGet\\NuGet.Config"
