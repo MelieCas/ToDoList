@@ -1,0 +1,33 @@
+@page "/todo"
+@using ToDoList.App.DTO
+@inject LocalStorageAccessor LocalStorageAccessor
+
+<PageTitle>Todo</PageTitle>
+
+<h1>Todo</h1>
+    @foreach(TodoTask task in tasks) {
+        <p><input type="checkbox" @bind="task.Completed" @onchange="task.Completed"> @task</p>
+    }
+<input type="text" @bind=TaskText/>
+<button class="btn btn-primary" @onclick="AddTaskAsync">Add</button>
+
+@code {
+    private List<TodoTask> tasks = new();
+    private string? TaskText {get; set;}
+
+    protected override async Task OnAfterRenderAsync(bool firstRender) {
+        if (firstRender) 
+        {
+            var storageTasks = await LocalStorageAccessor.GetValueAsync<List<TodoTask>>("todos");
+            foreach (TodoTask t in storageTasks) tasks.Add(t);
+            StateHasChanged();
+        }
+        
+    }
+    private async Task AddTaskAsync()
+    {
+        tasks.Add(new TodoTask{Text = TaskText});
+        await LocalStorageAccessor.SetValueAsync<List<TodoTask>>("todos", tasks);
+        TaskText = "";
+    }
+}
