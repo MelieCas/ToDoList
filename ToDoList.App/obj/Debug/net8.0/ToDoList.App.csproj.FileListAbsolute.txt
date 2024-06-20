@@ -1029,3 +1029,4 @@ c:\Users\victor.casares.ext\ToDoList\ToDoList.App\obj\Debug\net8.0\compressed\iu
 c:\Users\victor.casares.ext\ToDoList\ToDoList.App\obj\Debug\net8.0\compressed\4yn5e48too.gz
 c:\Users\victor.casares.ext\ToDoList\ToDoList.App\obj\Debug\net8.0\compressed\zagxkvoj9d.gz
 c:\Users\victor.casares.ext\ToDoList\ToDoList.App\obj\Debug\net8.0\compressed\c9fdsfagr7.gz
+c:\Users\victor.casares.ext\ToDoList\ToDoList.App\obj\Debug\net8.0\ToDoList.App.sourcelink.json
