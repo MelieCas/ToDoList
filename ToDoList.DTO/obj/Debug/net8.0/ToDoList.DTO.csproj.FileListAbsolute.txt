@@ -1,0 +1,12 @@
+C:\Users\victor.casares.ext\ToDoList\ToDoList.DTO\bin\Debug\net8.0\ToDoList.DTO.deps.json
+C:\Users\victor.casares.ext\ToDoList\ToDoList.DTO\bin\Debug\net8.0\ToDoList.DTO.dll
+C:\Users\victor.casares.ext\ToDoList\ToDoList.DTO\bin\Debug\net8.0\ToDoList.DTO.pdb
+C:\Users\victor.casares.ext\ToDoList\ToDoList.DTO\obj\Debug\net8.0\ToDoList.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victor.casares.ext\ToDoList\ToDoList.DTO\obj\Debug\net8.0\ToDoList.DTO.AssemblyInfoInputs.cache
+C:\Users\victor.casares.ext\ToDoList\ToDoList.DTO\obj\Debug\net8.0\ToDoList.DTO.AssemblyInfo.cs
+C:\Users\victor.casares.ext\ToDoList\ToDoList.DTO\obj\Debug\net8.0\ToDoList.DTO.csproj.CoreCompileInputs.cache
+C:\Users\victor.casares.ext\ToDoList\ToDoList.DTO\obj\Debug\net8.0\ToDoList.DTO.sourcelink.json
+C:\Users\victor.casares.ext\ToDoList\ToDoList.DTO\obj\Debug\net8.0\ToDoList.DTO.dll
+C:\Users\victor.casares.ext\ToDoList\ToDoList.DTO\obj\Debug\net8.0\refint\ToDoList.DTO.dll
+C:\Users\victor.casares.ext\ToDoList\ToDoList.DTO\obj\Debug\net8.0\ToDoList.DTO.pdb
+C:\Users\victor.casares.ext\ToDoList\ToDoList.DTO\obj\Debug\net8.0\ref\ToDoList.DTO.dll

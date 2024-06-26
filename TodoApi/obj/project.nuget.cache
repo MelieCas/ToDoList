@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "v7DvTqgBGEc=",
+  "dgSpecHash": "8OR3n5rCInQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\victor.casares.ext\\ToDoList\\TodoApi\\TodoApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\victor.casares.ext\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\victor.casares.ext\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\victor.casares.ext\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\victor.casares.ext\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
