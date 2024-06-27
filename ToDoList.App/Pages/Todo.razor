@@ -1,12 +1,13 @@
 @page "/todo"
 @using ToDoList.DTO
 @inject LocalStorageAccessor LocalStorageAccessor
+@inject HttpClient Http
 
 <PageTitle>Todo</PageTitle>
 
 <h1>Todo</h1>
-    @foreach(TodoTask task in tasks) {
-        <p><input type="checkbox" @bind="task.IsCompleted" @onclick="SaveAsync" /> @task</p>
+    @foreach(TodoTask item in tasks) {
+        <p><input type="checkbox" @bind="item.IsCompleted" @onclick="@(task => SaveAsync(item))" /> @item</p>
     }
 <input type="text" @bind=TaskText/>
 <button class="btn btn-primary" @onclick="AddTaskAsync">Add</button>
@@ -15,16 +16,16 @@
     private List<TodoTask> tasks = new();
     private string? TaskText {get; set;}
 
-    private async Task SaveAsync() {
+    private async Task SaveAsync(TodoTask edit) {
         // ESTO TA FEO, NO HACER
         await Task.Delay(1);
-        await LocalStorageAccessor.SetValueAsync<List<TodoTask>>("todos", tasks);
+        await Http.PutAsJsonAsync($"https://localhost:7209/api/TodoItems/{edit.Id}", edit);
     }
 
     protected override async Task OnAfterRenderAsync(bool firstRender) {
         if (firstRender) 
         {
-            tasks = await Http.GetFromJsonAsync<List<TodoTask>>("https://localhost:7209/api/TodoItems")
+            tasks = await Http.GetFromJsonAsync<List<TodoTask>>("https://localhost:7209/api/TodoItems");
             StateHasChanged();
         }
         
@@ -32,7 +33,8 @@
     private async Task AddTaskAsync()
     {
         tasks.Add(new TodoTask{Name = TaskText});
-        await LocalStorageAccessor.SetValueAsync<List<TodoTask>>("todos", tasks);
+        await Http.PostAsJsonAsync("https://localhost:7209/api/TodoItems", new TodoTask{Name = TaskText});
+        
         TaskText = "";
     }
 }

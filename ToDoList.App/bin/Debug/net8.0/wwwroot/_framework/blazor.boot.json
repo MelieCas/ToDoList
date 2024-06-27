@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "ToDoList.App",
   "resources": {
-    "hash": "sha256-F/9qPyooLzqqljJvypgFhZdXomoANTnYjDEPleA6YiA=",
+    "hash": "sha256-0DK+g9na62OfT44usLnnugIthk6jgnsfA5k7yX0uACI=",
     "jsModuleNative": {
       "dotnet.native.8.0.6.vwsfm1caeo.js": "sha256-YU6M9+jtDVnB8/wtrgIndOstzNh778Ls8g9XnbjorSk="
     },
@@ -23,6 +23,10 @@
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-Mfv/Wds4tY+jX0AY8lIFtYCYhvXOliEK58jv2q6r2Lk=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-970luUF85QlWsg4VH4Ml/vKhq3i3UQd5s1J1XyUSw6g=",
       "Microsoft.AspNetCore.Metadata.wasm": "sha256-M6d6kRld7okbnIpnX8hLjwBfs/aIXl7ubpmAdEmiysE=",
+      "Microsoft.EntityFrameworkCore.wasm": "sha256-meME6Ge2GI9vu9+UVJw0lYmAIVUhiVrvEmBkJQ9X9yM=",
+      "Microsoft.EntityFrameworkCore.Abstractions.wasm": "sha256-huT8jMfFtKqis+FfDdcV3fcObwW/KRF1yRv5MfU+JIE=",
+      "Microsoft.Extensions.Caching.Abstractions.wasm": "sha256-ygxx8pKlN4YllvAX2HADU+dKWSOZRMNfSP4nHkPMH+8=",
+      "Microsoft.Extensions.Caching.Memory.wasm": "sha256-K0Qzxs1gptgogO6juGZzfFp3Q7gUtMCJbo7ateym6cw=",
       "Microsoft.Extensions.Configuration.wasm": "sha256-UDGEQR7J3WTfzYMgOzxVIBwFQtKEeJvO8UgrWagypdE=",
       "Microsoft.Extensions.Configuration.Abstractions.wasm": "sha256-yNdqbqDWGiJo943D7LPak5xryCBEsNH0wtdiuU1R9VE=",
       "Microsoft.Extensions.Configuration.Binder.wasm": "sha256-GSjil45tcp9Gt2YUvSdWcCKn7FqCK6B5Pf2C3ImL+bA=",
@@ -208,10 +212,12 @@
       "mscorlib.wasm": "sha256-masKveCdoRSahF99doEQk7H3YN2wHLVIE4M/Zu8OoD8=",
       "netstandard.wasm": "sha256-z1EJOmgVhSpTopn7Tek/0P//MKGF1I3NUD/sh4oLnwY=",
       "System.Private.CoreLib.wasm": "sha256-tuIWpR30u0OoEVtv4pXZ47mEpI2AmFBIyYFPnqDZZfw=",
-      "ToDoList.App.wasm": "sha256-nFpBbAQOj++zIBGLVv6hkVKtu+0Iidw46uGbp8a459c="
+      "ToDoList.DTO.wasm": "sha256-SEr2YwEMdaKZz02k65xNEx23WcKYL7n5UR2G0mYbFUw=",
+      "ToDoList.App.wasm": "sha256-SUOAJiAF8XmRmiHoQl82Tr2JEKFfI+/AO3Vja7wQpwg="
     },
     "pdb": {
-      "ToDoList.App.pdb": "sha256-KcTzJiDnlCp8U1PxoeqjBvJVhzibfumWgHaWVPVMgKQ="
+      "ToDoList.DTO.pdb": "sha256-PL7ewAHc4NGtGLnfTnSiBdUorZYyBVk8lxk6UN3HVFM=",
+      "ToDoList.App.pdb": "sha256-H9cBZGRojVcv/WlkUymvDnwJ8282G/JHXarUw3wVphg="
     }
   },
   "cacheBootResources": true,
