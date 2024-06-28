@@ -73,13 +73,13 @@ namespace TodoApi.Controllers
         // POST: api/TodoItems
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<TodoTask>> PostTodoItem(TodoTask todoDTO)
+        public async Task<ActionResult<TodoTask>> PostTodoItem(TodoItem todoDTO)
         {
             
 
             _context.TodoItems.Add(_mapper.Map<TodoItem>(todoDTO));
             await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(PostTodoItem), todoDTO );
+            return CreatedAtAction("GetTodoItem", new { id = todoDTO.Id}, todoDTO );
         }
 
         // DELETE: api/TodoItems/5

@@ -7,7 +7,7 @@
 
 <h1>Todo</h1>
     @foreach(TodoTask item in tasks) {
-        <p><input type="checkbox" @bind="item.IsCompleted" @onclick="@(task => SaveAsync(item))" /> @item</p>
+        <p><input type="checkbox" checked="@item.IsCompleted" @onclick="() => SaveAsync(item)" /> @item <button class="btn-delete" @onclick="() => DeleteTaskAsync(item)">Delete</button></p>
     }
 <input type="text" @bind=TaskText/>
 <button class="btn btn-primary" @onclick="AddTaskAsync">Add</button>
@@ -17,8 +17,8 @@
     private string? TaskText {get; set;}
 
     private async Task SaveAsync(TodoTask edit) {
-        // ESTO TA FEO, NO HACER
-        await Task.Delay(1);
+
+        edit.IsCompleted = !edit.IsCompleted;
         await Http.PutAsJsonAsync($"https://localhost:7209/api/TodoItems/{edit.Id}", edit);
     }
 
@@ -31,10 +31,16 @@
         
     }
     private async Task AddTaskAsync()
-    {
-        tasks.Add(new TodoTask{Name = TaskText});
-        await Http.PostAsJsonAsync("https://localhost:7209/api/TodoItems", new TodoTask{Name = TaskText});
-        
+    {   
+        var task = new TodoTask {Name = TaskText};
+        var resp = await Http.PostAsJsonAsync<TodoTask>("https://localhost:7209/api/TodoItems", task);
+        task = await resp.Content.ReadFromJsonAsync<TodoTask>();    
+        tasks.Add(task);
         TaskText = "";
+    }
+    private async Task DeleteTaskAsync(TodoTask deleteItem)
+    {
+    tasks.Remove(deleteItem);
+    await Http.DeleteAsync($"https://localhost:7209/api/TodoItems/{deleteItem.Id}");
     }
 }
