@@ -1,47 +1,47 @@
 {
   "Files": [
     {
-      "Id": "c:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "c:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\obj\\Debug\\net8.0\\compressed\\1kg4r51jq4.gz",
+      "Id": "C:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\obj\\Debug\\net8.0\\compressed\\1kg4r51jq4.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "c:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ToDoList.App.styles.css",
+      "Id": "C:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ToDoList.App.styles.css",
       "PackagePath": "staticwebassets\\ToDoList.App.styles.css"
     },
     {
-      "Id": "c:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "c:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "c:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "c:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "c:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\wwwroot\\icon-192.png",
+      "Id": "C:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "c:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\wwwroot\\index.html",
+      "Id": "C:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "c:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\wwwroot\\js\\LocalStorageAccessor.js",
+      "Id": "C:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\wwwroot\\js\\LocalStorageAccessor.js",
       "PackagePath": "staticwebassets\\js\\LocalStorageAccessor.js"
     },
     {
-      "Id": "c:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\wwwroot\\sample-data\\weather.json",
+      "Id": "C:\\Users\\victor.casares.ext\\ToDoList\\ToDoList.App\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {
